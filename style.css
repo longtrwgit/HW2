@@ -1,0 +1,44 @@
+/* Bước 3: Thẻ nội dung (body) */
+body {
+  font-family: Arial, sans-serif; /* Thay đổi font tùy ý */
+  font-size: 16px;
+}
+
+/* Bước 4: Thẻ tiêu đề (header) */
+header {
+  background-color: #f1f1f1; /* Thay đổi màu nền */
+}
+
+/* Bước 5: Thẻ nav (nav) */
+nav {
+  background-color: #333;
+}
+
+/* Bước 6: Thẻ chính (main) */
+main {
+  background-color: #ffffff;
+  font-size: 18px;
+}
+
+/* Bước 7: Thẻ chân trang (footer) */
+footer {
+  background-color: #d1d1d1;
+}
+
+/* Bước 8: Thẻ danh sách (li) */
+li {
+  display: inline-block; /* Hoặc block/flex tùy yêu cầu */
+  width: 150px;
+}
+
+/* Bước 9: Thẻ h1 (h1) */
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  color: #000000;
+}
+
+/* Bước 10: Thẻ đoạn văn (p) */
+p {
+  line-height: 1.5; /* Khoảng cách giữa các dòng */
+}
