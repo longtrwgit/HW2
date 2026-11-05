@@ -26,11 +26,12 @@ footer {
 }
 
 /* Bước 8: Thẻ danh sách (li) */
+/*
 li {
   display: inline-block; /* Hoặc block/flex tùy yêu cầu */
   width: 150px;
 }
-
+*/
 /* Bước 9: Thẻ h1 (h1) */
 h1 {
   text-align: center;
@@ -41,4 +42,35 @@ h1 {
 /* Bước 10: Thẻ đoạn văn (p) */
 p {
   line-height: 1.5; /* Khoảng cách giữa các dòng */
+}
+/* Bước 4: Định dạng thanh điều hướng */
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+/* Bước 5: Định dạng ảnh trong thanh điều hướng */
+nav img {
+  width: 10%;
+}
+
+/* Bước 6 & 8: Định dạng lớp lưới (Grid) */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Bước 7: Định dạng ảnh trong lớp lưới */
+.grid img {
+  width: 100%;
+}
+
+/* Bước 9: Định dạng lớp Flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
